@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yahoo!</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main grid wide">
+        <!--Header Yahoo!-->
+        <div class="header row">
+            <div class="col l-8">
+                <div class="row">
+                    <div class="col l-2">
+                        <img src="/imgs/icon-yahoo.png" alt="Yahoo!" class="header-yahoo-icon">
+                    </div>
+                    <div class="col l-10">
+                        <h2 class="header-hello">Chào Bạn!</h2>
+                        <p class="header-intro">Chúng tôi sẽ giúp bạn lập tài khoản Yahoo! theo ba bước rất đơn <br>giản! Bạn chỉ cần trả lời một số câu hỏi đơn giản, chọn ID và mật <br>khẩu, và thế là xong.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-4 header-loggin" >
+                Bạn đã có ID hoặc địa chỉ Yahoo! Mail?
+                <button class="header-loggin-btn">Đăng nhập</button><br>
+                <a href="" class="header-forget">Quên mật khẩu hoặc Yahoo! Mail?</a>
+            </div>
+            <div class="row">
+                <p class="line">.............................................................................................................................................................................................................................................................</p>
+            </div>
+        </div>
+        <!--End: Header Yahoo!-->
+
+        <!--Nội dung-->
+        <div class="content">
+            <div class="row content-language">
+                <form action="">
+                    <label class="language-lbl" for="languages">Tôi thích nhận nội dung bằng tiếng </label>
+                    <select name="languages" id="languages">
+                        <option value="vietnam">Yahoo! Việt Nam</option>
+                        <option value="korea">Yahoo! Hàn Quốc</option>
+                        <option value="america">Yahoo! Mỹ</option>
+                        <option value="japan">Yahoo! Nhật Bản</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="row content-info">
+                <div class="col l-8 info">
+                    <h3 class="list-item">1. Hãy cho chúng tôi biết về bản thân bạn...</h3><br>
+                    <div class="row">
+                        <div class="col l-4 label-infos">
+                            <p class="lbl-info">Tên của Tôi</p>
+                            <p class="lbl-info">Giới Tính</p>
+                            <p class="lbl-info">Ngày Tháng Năm Sinh</p>
+                            <p class="lbl-info">Tôi sống tại</p>
+                            <p class="lbl-info">Mã bưu chính</p>
+                        </div>
+                        <div class="col l-8">
+                            <form class="name">
+                                <input type="text" placeholder="Tên họ">
+                                <input type="text" placeholder="Tên gọi">
+                            </form>
+                            <form class="sex">
+                                <select name="sexs" id="sexs">
+                                    <option value="select-sex">-Chọn Một Mục -</option>
+                                    <option value="male">Nam</option>
+                                    <option value="female">Nữ</option>
+                                    <option value="sex-other">Khác</option>
+                                </select>
+                            </form>
+                            <form class="birthdate">
+                                <input type="text" placeholder="Ngày" id="day-of-birth">
+                                <select name="month-of-birth" id="month-of-birth">
+                                    <option value="select-month">- Chọn Tháng -</option>
+                                    <option value="jan">Tháng 1</option>
+                                    <option value="feb">Tháng 2</option>
+                                    <option value="mar">Tháng 3</option>
+                                    <option value="apr">Tháng 4</option>
+                                    <option value="may">Tháng 5</option>
+                                    <option value="jun">Tháng 6</option>
+                                    <option value="jul">Tháng 7</option>
+                                    <option value="aug">Tháng 8</option>
+                                    <option value="sep">Tháng 9</option>
+                                    <option value="oct">Tháng 10</option>
+                                    <option value="nov">Tháng 11</option>
+                                    <option value="dec">Tháng 12</option>
+                                </select>
+                                <input type="text" placeholder="Năm" id="year-of-birth">
+                            </form>
+                            <form class="country">
+                                <select name="countries" id="countries">
+                                    <option value="ct-vietnam">Việt Nam</option>
+                                    <option value="ct-korea">Hàn Quốc</option>
+                                    <option value="ct-america">Mỹ</option>
+                                    <option value="ct-japan">Nhật Bản</option>
+                                </select>
+                            </form>
+                            <form class="post-id">
+                                <input type="text" id="posts-id">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row content-account">
+                <div class="col l-8">
+                    <h3 class="list-item">2. Chọn ID và mật khẩu</h3><br>
+                    <div class="row">
+                        <div class="col l-4 label-infos">
+                            <p class="lbl-info">Yahoo! ID và Email</p>
+                            <p class="lbl-info">Mật Khẩu</p>
+                            <p class="lbl-info">Đánh Lại Mật Khẩu</p>
+                        </div>
+                        <div class="col l-8">
+                            <form class="uid">
+                                <input type="text" id="user-uid"> <b>@yahoo.com.vn</b>
+                            </form>
+                            <form class="pass">
+                                <input type="text" id="user-pass">
+                            </form>
+                            <form class="re-pass">
+                                <input type="text" id="user-re-pass">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row content-security">
+                <div class="col l-8">
+                    <h3 class="list-item">3. Để đề phòng trường hợp bạn quên ID hoặc mật khẩu...</h3><br>
+                    <div class="row">
+                        <div class="col l-4 label-infos">
+                            <p class="lbl-info"><i>Email Thay Thế Khác</i></p>
+                            <p class="lbl-info">Câu Hỏi Bảo Mật</p>
+                            <p class="lbl-info">Câu Trả Lời Của Bạn</p>
+                        </div>
+                        <div class="col l-8">
+                            <form class="email">
+                                <input type="text" id="user-email">
+                            </form>
+                            <form class="question">
+                                <select name="questions" id="questions">
+                                    <option value="qu-selections">- Chọn Một Mục -</option>
+                                    <option value="qu-where">Bạn sống ở đâu?</option>
+                                    <option value="qu-how-many">Gia đình bạn có mấy người?</option>
+                                    <option value="qu-father">Bố bạn tên gì?</option>
+                                    <option value="qu-mother">Mẹ bạn tên gì?</option>
+                                </select>
+                            </form>
+                            <form class="answer">
+                                <input type="text" id="user-answer">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End: Nội dung-->
+
+        <!--Footer-->
+        <div class="footer row">
+            <div class="row">
+                <p class="line">.............................................................................................................................................................................................................................................................</p>
+            </div>
+            <div class="col l-8">
+                <div class="row">
+                    <div class="col l-4 label-infos">
+                        <p class="footer-more lbl-info">Chỉ còn một số chi tiết nữa...</p>
+                        <p class="footer-choose lbl-info">Các Lựa Chọn Ưu Tiên về</p>
+                        <p class="footer-choose">Tiếp Thị</p>
+                    </div>
+                    <div class="col l-8">
+                        <div class="row">
+                            <div class="col l-1">
+                                <input type="checkbox" checked id="checkbox">
+                            </div>
+                            <div class="col l-11">
+                                <form class="check">
+                                    <p class="footer-more-info">Đôi khi Công ty Compaq có thể liên lạc với tôi về các chương trình chào hàng đặc biệt, các chương trình khuyến mãi và các tính năng Yahoo!</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End: Footer-->
+    </div>
+</body>
+</html>

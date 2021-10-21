@@ -1,0 +1,97 @@
+* {
+    font-family: Arial;
+}
+.list-item {
+    color: purple;
+    margin-bottom:0px ;
+}
+/* Header */
+.header {
+    margin-top: 20px;
+}
+.header-hello {
+    color: purple;
+    margin: 10px 0 5px 0px;
+}
+.header-intro {
+    margin-top: 0px;
+    font-size: 15px;
+}
+.header-yahoo-icon {
+    display: inline-block;
+    width: 112px;
+    height: 112px;
+}
+.header-loggin {
+    margin-top: 10px;
+}
+.header-loggin-btn {
+    padding: 2px 30px;
+    margin: 5px 0;
+}
+
+.header-forget {
+    font-size: 13px;
+    color: dodgerblue;
+    text-decoration: none;
+}
+.line {
+    margin: 0 0;
+}
+
+/* Chọn ngôn ngữ */
+.language-lbl {
+    font-size: 14px;
+    color: purple;
+}
+#languages {
+    font-size: 15px;
+    width: 304px;
+}
+.content-language {
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+.lbl-info {
+    margin-top:0px;
+    font-size: 15px;
+}
+.label-infos {
+    margin-top: 0px;
+    text-align: end;
+}
+.name, .birthdate, .sex, .country, .pass, .uid, .re-pass, .question, .email {
+    margin-bottom: 11px;
+}
+#day-of-birth, #year-of-birth {
+    width: 88px;
+}
+#month-of-birth {
+    width: 158px;
+}
+#countries, #user-pass , #user-re-pass, #user-email, #user-answer{
+    width: 359px;
+}
+#posts-id {
+    width: 100px;
+}
+#questions {
+    width: 367px;
+}
+
+.footer-more {
+    color: purple;
+    font-size: 15px;
+}
+.footer-choose {
+    margin: 0;
+}
+#checkbox {
+    margin-top: 35px;
+    display: inline-block;
+}
+.footer-more-info {
+    margin-left: -12px;
+    margin-top: 32px;
+    font-size: 13px;
+}
